@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://example.passage.page"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.apisconnect.habitanto_access",
+      "sha256_cert_fingerprints": [
+        "E0:F1:0A:FA:A3:E1:EC:0F:22:60:84:91:58:60:05:6F:CB:93:FD:88:85:AF:67:AC:5D:4C:4B:60:18:81:0E:76"
+      ]
+    }
+  }
+]
